@@ -1,0 +1,25 @@
+/* Esto afecta a toda la página */
+body {
+    background-color: #ffffff67; /* Un color gris muy claro para no cansar la vista */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; /* Gris oscuro para el texto, es más profesional que el negro puro */
+    line-height: 1.6; /* Espaciado entre líneas para que sea fácil de leer */
+    max-width: 800px; /* Evita que el texto se estire demasiado en pantallas grandes */
+    margin: 40px auto; /* Centra todo el contenido */
+    padding: 20px;
+}
+
+/* Vamos a darle estilo a los títulos */
+h1 {
+    color: #2c3e50; /* Un azul oscuro elegante */
+    border-bottom: 2px solid #486634; /* Una línea azul debajo del título */
+    padding-bottom: 10px;
+}
+
+/* Estilo para las listas */
+ul {
+    background: #fff; /* Fondo blanco para resaltar las listas */
+    padding: 20px 40px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Una sombra muy sutil */
+}
