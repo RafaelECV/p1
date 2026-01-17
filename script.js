@@ -16,6 +16,8 @@ function saludar() {
     } else {
         mensaje = "¡Buenas noches!";
     }
+    let meta = promt("Cual es tu meta hoy?");
+    let naciemiento = Number(promt("En que año naciste?"));
 
     alert(mensaje + " Bienvenido al portafolio de " + nombre);
 }
