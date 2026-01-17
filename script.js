@@ -16,10 +16,18 @@ function saludar() {
     } else {
         mensaje = "¡Buenas noches!";
     }
-    let meta = promt("Cual es tu meta hoy?");
-    let naciemiento = Number(promt("En que año naciste?"));
+    let cm = Number(prompt("Cuantas metas tienes hoy?"));
+    let listademetas=[];
+    for (let i=0; i<cm; i++)
+        {
+            let meta = prompt("Escribe tu meta número " + (i + 1) + ":");
+            listademetas.push(meta);
+        }
+    let naciemiento = Number(prompt("En que año naciste?"));
 
     alert(mensaje + " Bienvenido al portafolio de " + nombre);
+    alert("Hola "+nombre+" y naciste en el año "+naciemiento);
+    alert("Tus metas para hoy son:\n" + listademetas.join("\n"));
 }
 
 // 4. Ejecutar el saludo al cargar la página
